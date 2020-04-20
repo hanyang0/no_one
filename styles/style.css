@@ -1,0 +1,44 @@
+html {
+  /* font-size字体大小;px 表示 “像素（pixels）”: 基础字号为 10 像素 */
+  font-size: 10px; 
+  /* font-family 字体   Google fonts 输出的 CSS */
+  font-family: 'Open Sans', sans-serif; 
+}
+h1 {
+  font-size: 60px;
+  /*字体对齐*/
+  text-align: center;
+}
+
+p, li {
+  font-size: 16px;    
+  /*行高*/
+  line-height: 2;
+  /*字间距*/
+  letter-spacing: 1px;
+}
+html {
+  background-color: #1E2A8B;
+}
+body {
+  /*padding：即内边距，围绕着内容（比如段落）的空间。
+border：即边框，紧接着内边距的线。
+margin：即外边距，围绕元素外部的空间*/
+  width: 700px;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+  padding: 0px 20px 20px 20px;
+  border: 5px solid #DA9C23;
+}
+h1 {
+  margin: 0;
+  padding: 20px 0;    
+  color: #1E2A8B;
+  /*text-shadow ：为元素内的文本设置阴影*/
+  text-shadow: 3px 3px 1px black;
+}
+img {
+  width: 600px;
+  display: block;
+  margin: 0 auto;
+}
